@@ -14,7 +14,43 @@ function App() {
             </ul>
           </nav>
         </header>
-        <main className="grid grid-cols-3 gap-4">
+        <main className="grid grid-cols-3 gap-4 my-10">
+          <div className="bg-slate-200 p-2 w-50 h-65 text-sm text-blue-800  border-1 mx-4 ">
+            <img src="#" alt="" className="rounded-xl w-20 h-20" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum a
+              earum nesciunt quam hic, enim, nostrum ea saepe fugit
+              reprehenderit asperiores similique eius commodi consequuntur
+              suscipit in, ex
+            </p>
+          </div>
+          <div className="bg-slate-200 p-2 w-50 h-65 text-sm text-blue-800  border-1 mx-4 ">
+            <img src="#" alt="" className="rounded-xl w-20 h-20" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum a
+              earum nesciunt quam hic, enim, nostrum ea saepe fugit
+              reprehenderit asperiores similique eius commodi consequuntur
+              suscipit in, ex
+            </p>
+          </div>
+          <div className="bg-slate-200 p-2 w-50 h-65 text-sm text-blue-800  border-1 mx-4 ">
+            <img src="#" alt="" className="rounded-xl w-20 h-20" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum a
+              earum nesciunt quam hic, enim, nostrum ea saepe fugit
+              reprehenderit asperiores similique eius commodi consequuntur
+              suscipit in, ex
+            </p>
+          </div>
+          <div className="bg-slate-200 p-2 w-50 h-65 text-sm text-blue-800  border-1 mx-4 ">
+            <img src="#" alt="" className="rounded-xl w-20 h-20" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum a
+              earum nesciunt quam hic, enim, nostrum ea saepe fugit
+              reprehenderit asperiores similique eius commodi consequuntur
+              suscipit in, ex
+            </p>
+          </div>
           <div className="bg-slate-200 p-2 w-50 h-65 text-sm text-blue-800  border-1 mx-4 ">
             <img src="#" alt="" className="rounded-xl w-20 h-20" />
             <p>
