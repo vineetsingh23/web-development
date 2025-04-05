@@ -9,7 +9,7 @@ const Navbar = () => {
         className="w-full font-sans bg-slate-950 flex  
        py-3 px-0 fixed top-0 left-0 text-white rounded-b-md items-center"
       >
-        <div className="flex md:flex md:items-center md:justify-between justify-center px-3">
+        <div className="flex">
           <Link to="/home" className="inline-flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               stroke-width="1"
               stroke="currentColor"
-              class="size-12 text-blue-500 "
+              class="size-16 text-blue-500 "
             >
               <path
                 stroke-linecap="round"
@@ -25,7 +25,7 @@ const Navbar = () => {
                 d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
               />
             </svg>
-            <h1 className="font-bold text-xl px-2 inline-flex space-x-2 bg-gradient-to-l from-pink-300 to-green-300 bg-clip-text text-transparent">
+            <h1 className="font-bold text-3xl px-2 inline-flex space-x-2 bg-gradient-to-l from-pink-300 to-green-300 bg-clip-text text-transparent">
               Study <span className="text-blue-500 ml-2">ALONG</span>
             </h1>
           </Link>
