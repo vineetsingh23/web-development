@@ -5,16 +5,19 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="w-full font-sans  bg-slate-950 flex items-center justify-around py-3 px-0 fixed top-0 left-0 text-white">
-        <div className="flex md:flex md:items-center md:justify-between">
-          <Link to="/home" className="inline-flex items-center justify-around">
+      <nav
+        className="w-full font-sans bg-slate-950 flex  
+       py-3 px-0 fixed top-0 left-0 text-white rounded-b-md items-center"
+      >
+        <div className="flex md:flex md:items-center md:justify-between justify-center px-3">
+          <Link to="/home" className="inline-flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              stroke-width="1"
               stroke="currentColor"
-              class="size-12 text-blue-500"
+              class="size-12 text-blue-500 "
             >
               <path
                 stroke-linecap="round"
@@ -43,10 +46,14 @@ const Navbar = () => {
             </svg>
           </span>
         </div>
-        <nav className="md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300">
+        <nav
+          className="md:flex items-center justify-items-center
+         w-full left-0 md:w-auto md:py-0 md:pl-0 min-w-56  md:opacity-100 opacity-0 
+         top-[-400px] transition-all ease-in duration-300 ml-40 gap-5"
+        >
           <Link
             to="/home"
-            className="py-1 px-3 text-lg md:hidden font-light hover:text-sky-400 rounded-2xl hover:bg-slate-600 transition duration-300"
+            className="py-1 px-3 text-lg font-light hover:text-sky-400 rounded-2xl hover:bg-slate-600 transition duration-300"
           >
             Home
           </Link>
@@ -64,14 +71,13 @@ const Navbar = () => {
           </Link>
           <Link
             to="/product"
-            className="py-1 px-3 text-lg font-light hover:text-sky-400 rounded-2xl hover:bg-slate-600 transition duration-300"
+            className="py-3 px-3 text-lg font-light hover:text-sky-400 rounded-2xl hover:bg-slate-600 transition duration-300"
           >
             Product
           </Link>
-          <button className="py-2 px-3 bg-blue-700 text-white text-nowrap rounded-lg">
+          <button className="py-2 px-3 ml-10 bg-blue-700 text-white text-nowrap rounded-lg">
             Get Started
           </button>
-          .
         </nav>
       </nav>
     </>
