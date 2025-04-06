@@ -6,11 +6,11 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="w-full font-sans bg-slate-950 flex  
-       py-3 px-0 fixed top-0 left-0 text-white rounded-b-md items-center"
+        className="w-full font-sans bg-slate-950 flex   
+       py-3 px-0 fixed top-0 left-0 z-50 text-white rounded-b-md items-center"
       >
-        <div className="flex">
-          <Link to="/home" className="inline-flex items-center">
+        <div className="flex-1/5">
+          <Link to="/" className="inline-flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -52,7 +52,7 @@ const Navbar = () => {
          top-[-400px] transition-all ease-in duration-300 ml-40 gap-5"
         >
           <Link
-            to="/home"
+            to="/"
             className="py-1 px-3 text-lg font-light hover:text-sky-400 rounded-2xl hover:bg-slate-600 transition duration-300"
           >
             Home

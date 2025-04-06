@@ -8,10 +8,10 @@ import Product from "./components/Product";
 export default function App() {
   return (
     <>
-      <div className="min-h-screen flex flex-col bg-gray-50">
-        <Navbar />
+      <div className="min-h-screen top-0 left-0 bg-gray-50">
+        <Navbar/>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/product" element={<Product />} />
