@@ -43,7 +43,7 @@ const cards = [
 
 const Card = ({ image, title, discription, button }) => {
   return (
-    <div className="min-h-screen-xl mt-50 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
+    <div className="min-h-screen-xl mt-20 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
       <div className="rounded-xl justify-center p-2 items-center rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-fit w-65 border-2 border-slate-200 shadow-lg shadow-bg-slate-400 object-cover hover:scale-150 transform origin-bottom">
         <img src={image} alt="subjects" className="w-full" />
         <div className="text-2xl font-bold mb-2 text-center capitalize text-blue-700">
