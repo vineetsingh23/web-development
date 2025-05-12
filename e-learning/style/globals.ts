@@ -1,0 +1,8 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose {
+  max-width: 100%;
+}

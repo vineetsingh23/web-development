@@ -1,0 +1,20 @@
+body {
+    background-color: goldenrod;
+    color: black;
+    width: full;
+    height: screen;
+    justify-items: center;
+    
+}
+
+img{
+    width:90vw;
+    height: 10rem;
+    margin:1rem 2rem;
+    opacity: 120%;
+    
+}
+h5{
+    font-weight: 600;
+    
+}
